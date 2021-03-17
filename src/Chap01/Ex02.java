@@ -22,9 +22,60 @@ public class Ex02 {
 //		
 //		System.out.println("abcd");
 		
-		System.out.println("-오늘의 기온: "+-5.3);
-		System.out.println("-커피 가격: "+1500);
-		System.out.println("-철수의 Java 과목 학점: "+'A');
+//		System.out.println("-오늘의 기온: "+-5.3);
+//		System.out.println("-커피 가격: "+1500);
+//		System.out.println("-철수의 Java 과목 학점: "+'A');
+//		
+//		int num1 = 10;
+//		
+//		num1 = num1+5;
+//		num1 += 5;		
+//		num1 = num1-5;
+//		num1 -= 5;
+//		num1 = num1*5;
+//		num1 *= 5;
+//		num1 = num1/5;
+//		num1 /= 5;
+//		num1 = num1%5;
+//		num1 %= 5;
+		
+		
+		
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
