@@ -4,7 +4,7 @@ public class Ex06 {
 	public static void main(String[] args) {
 		SimpleType1 type1 = new SimpleType1();
 		type1.num1 = 10;
-		type1.num2 = 11;
+//		type1.num2 = 11;
 		
 		SimpleType2 type2 = new SimpleType2();
 		type2.var1 = 21;
