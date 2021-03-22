@@ -13,5 +13,7 @@ public class Ex20 {
 		String var1 = scanner.next();
 		
 		if(var1.equals("+")) System.out.println(num1 + num2);
+		
+		scanner.close();
 	}
 }
