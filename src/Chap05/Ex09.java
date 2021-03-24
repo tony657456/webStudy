@@ -21,12 +21,21 @@ public class Ex09 {
 		double add = num1 + num2;
 		return add;
 	}
+	
+	void instanceMemberMethod() {
+		System.out.println("인스턴스 멤버 메서드");
+	}
+	
+	static void classMemberMethod() {
+		System.out.println("클래스 멤버 메서드");
+	}
+	
 	public static void main(String[] args) {
 		Ex09 ex09 = new Ex09();
 		
-		ex09.add(1, 1);
-		ex09.add(1, 0.1);
-		ex09.add(0.1, 0.1);
+		ex09.instanceMemberMethod();
+		
+		Ex09.classMemberMethod();
 	
 }
 }
