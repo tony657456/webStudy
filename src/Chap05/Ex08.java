@@ -1,6 +1,7 @@
 package Chap05;
 
 public class Ex08 {
+	
 //	int add(int num1, int num2) {
 //		int result = num1+num2;
 //		return result;
@@ -24,7 +25,8 @@ public class Ex08 {
 	}
 		
 	public static void main(String[] args) {
-		
+		Ex09 ex09 = new Ex09();
+		System.out.println(ex09.num3 );
 		
 		
 	}

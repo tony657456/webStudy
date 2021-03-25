@@ -7,6 +7,8 @@ public class Ex09 {
 	// 2. 매개변수 타입이나 갯수가 달라야 한다.
 	// 3. 리턴타입은 고려 대상이 아니다.
 	
+	public int num3 =3;
+	
 	int add(int num1, int num2) {
 		int add = num1 + num2;
 		return add;
@@ -22,6 +24,10 @@ public class Ex09 {
 		return add;
 	}
 	
+	int num1;
+	
+	static int num2;
+	
 	void instanceMemberMethod() {
 		System.out.println("인스턴스 멤버 메서드");
 	}
@@ -36,6 +42,9 @@ public class Ex09 {
 		ex09.instanceMemberMethod();
 		
 		Ex09.classMemberMethod();
+		
+		System.out.println(ex09.num3);
+		
 	
 }
 }
