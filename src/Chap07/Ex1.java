@@ -6,13 +6,15 @@ public class Ex1 {
 	// C - A 클래스의 자식 클래스, D 클래스의 부모 클래스
 	// D - C 클래스의 자식 클래스
 	public static void main(String[] args) {
-		A a = new A();
+		Point3D point3d = new Point3D();
 		
-		B b = new B();
-		b.setNum2(2);
-		C c = new C();
-		
-		D d = new D();
+//		A a = new A();
+//		
+//		B b = new B();
+//		b.setNum2(2);
+//		C c = new C();
+//		
+//		D d = new D();
 		
 	}
 	
